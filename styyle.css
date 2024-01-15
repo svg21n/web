@@ -1,0 +1,81 @@
+.header-name::before {
+    content: "Web";
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.header-name {
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    display: flex;
+    padding-left: 215px;
+}
+.menuu{
+    text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+        position: relative;
+}
+.menuu:after{
+    content: "";
+        background-color: #d87093;
+        border-radius: 10px;
+        height: 5px;
+        width: 100%;
+    
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        transform: scaleX(0);
+        transition: opacity 500ms cubic-bezier(0.83, -0.08, 0.32, 1), transform 500ms cubic-bezier(0.83, -0.08, 0.32, 1);
+}
+.footer-name::before {
+    content: "Web";
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.footer-name {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menuu:hover {
+    color: #2196F3;
+    fill: #2196F3;
+}
+
+.menuu {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    fill: #212121;
+}
